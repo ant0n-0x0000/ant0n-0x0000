@@ -9,6 +9,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 */
 let DATA = {
   name: 'ant0n',
+  faviconURL: 'https://www.ant0n.net/static/favicon.png',
   date: new Date().toLocaleDateString('en-GB', {
     weekday: 'long',
     month: 'long',
