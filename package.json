@@ -1,0 +1,22 @@
+{
+  "name": "ant0n-0x0000",
+  "version": "1.0.0",
+  "description": "My GitHub Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant0n-0x0000/ant0n-0x0000.git"
+  },
+  "author": "ant0n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ant0n-0x0000/ant0n-0x0000/issues"
+  },
+  "homepage": "https://github.com/ant0n-0x0000/ant0n-0x0000#readme",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
