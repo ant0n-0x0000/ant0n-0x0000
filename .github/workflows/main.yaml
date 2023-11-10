@@ -9,14 +9,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout current repository to Master branch
         uses: actions/checkout@v2
-
-      - name: Update README
-        run: |
-          # Add your script or commands here to automatically generate the README content
-          echo "This README was updated at $(date)" > README.md
-
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Cache dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+      - name: Install Dependencies
+        run: npm install
+      - name: Generate README.md
+        run: node index.js
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
