@@ -15,4 +15,4 @@ Right now I'm learning:
 - [ ] PyTorch
 
 ##
-<sup>This page last updated at Monday, 20 November at 08:03 GMT</sup>
+<sup>This page last updated at Monday, 20 November at 08:33 GMT</sup>
