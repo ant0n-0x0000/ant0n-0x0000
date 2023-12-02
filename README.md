@@ -6,13 +6,12 @@
 </p>
 
 ### About me
-I'm a 19 year old based semi-internationally across europe. The majority of my experience comes in the form of web development, however I'm always learning to try and diversify my skillset. I have extensive experience with graphics & 3D design, and I'm currently working on several personal projects which I hope to be able to share with you soon.
+I'm a 19-year-old based semi-internationally across Europe. The majority of my experience comes in the form of web development, however, I'm always learning to try and diversify my skillset. I have extensive experience with graphics & 3D design, and I'm currently working on several personal projects which I hope to be able to share with you soon.
 
 Right now I'm learning:
-- [ ] C++
+- [ ] Svelte
+- [ ] Astro
 - [ ] TypeScript
-- [ ] Scikit Learn
-- [ ] PyTorch
 
 ##
-<sup>This page last updated at Saturday, 2 December at 15:02 GMT</sup>
+<sup>This page last updated at Saturday, 2 December at 15:32 GMT</sup>
