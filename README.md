@@ -14,4 +14,4 @@ Right now I'm learning:
 - [ ] TypeScript
 
 ##
-<sup>This page last updated at Monday, 18 December at 13:04 GMT</sup>
+<sup>This page last updated at Monday, 18 December at 13:32 GMT</sup>
